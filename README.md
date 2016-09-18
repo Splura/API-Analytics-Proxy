@@ -28,7 +28,7 @@ Crawler works concurrently with the proxy in a non-blocking way, so that it adds
 Crawler stores measures in the data lake as-it-happens, this means it can be processed or displayed nearly in real-time.
 
 The resulting outcome of **API Analytics Proxy** will be custom structured data stored in a statistical key-value DB engine like *InfluxDB* or *GraphiteDB*.
-This engines are designed to be used as data-analytics oriented database engines. There are a number of well-known projects focused on data treatment and visualization using this engines as data sources, like *[Graphana](http://grafana.org/)*, which opens a lot of possibilities to integrate crawled data with final-user applications at a very low development cost.
+This engines are designed to be used as data-analytics oriented database engines. There are a number of well-known projects focused on data treatment and visualization using this engines as data sources, like *[Grafana](http://grafana.org/)*, which opens a lot of possibilities to integrate crawled data with final-user applications at a very low development cost.
 
 
 ----------
